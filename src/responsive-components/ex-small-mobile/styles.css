@@ -21,7 +21,7 @@
 .Landing-logo-ex-small-mobile{
     height: 40vmin;
     pointer-events: none;
-    margin: -50px 0 -30px 0;
+    margin: -5em 0 -3em 0;
 }
 
 .Main-graduate-ex-small-mobile {
@@ -97,7 +97,7 @@
   height: 25vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   max-width: 77%;
   margin: auto;
 }
@@ -109,6 +109,7 @@
 	cursor: pointer;
 	position: relative;
   text-align: center;
+  margin-bottom: 1rem;
 	padding: 1rem 1rem;
 	border-radius: 3.75rem;
 	line-height: 1.5rem;
