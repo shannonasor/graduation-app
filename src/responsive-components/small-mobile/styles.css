@@ -102,17 +102,18 @@
 
 /* Buttons */
 
-.buttons {
+.buttons-small-mobile {
   height: 35vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   max-width: 77%;
   margin-left: 3.2em;
+  color: white;
   
 }
 
-.button {
+.button-small-mobile {
   font-family: 'MonteCarlo', cursive;
   text-decoration: none;
 	cursor: pointer;

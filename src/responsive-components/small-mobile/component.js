@@ -25,10 +25,10 @@ function SmallMobile() {
               </header>
 
 
-              <div className='buttons'>
-                <button className='button button1'>Cash App</button>
-                <button className='button button2'>Give Advice</button>
-                <button className='button button3'>Virtual Graduation Party</button>
+              <div className='buttons-small-mobile'>
+                <button className='button-small-mobile button1-small-mobile'>Cash App</button>
+                <button className='button-small-mobile button2-small-mobile'>Give Advice</button>
+                <button className='button-small-mobile button3-small-mobile'>Virtual Graduation Party</button>
               </div>
 
 
