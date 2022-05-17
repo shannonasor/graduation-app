@@ -26,9 +26,8 @@ function ExSmallMobile() {
 
 
               <div className='buttons-ex-small-mobile'>
-                <button className='button-ex-small-mobile button1-ex-small-mobile'>Cash App</button>
-                <button className='button-ex-small-mobile button2-ex-small-mobile'>Give Advice</button>
-                <button className='button-ex-small-mobile button3-ex-small-mobile'>Virtual Graduation Party</button>
+                <button className='button-ex-small-mobile button1-ex-small-mobile'>Send Well Wishes</button>
+                <button className='button-ex-small-mobile button2-ex-small-mobile'>Virtual Graduation Party</button>
               </div>
 
 

@@ -26,9 +26,8 @@ function SmallMobile() {
 
 
               <div className='buttons-small-mobile'>
-                <button className='button-small-mobile button1-small-mobile'>Cash App</button>
-                <button className='button-small-mobile button2-small-mobile'>Give Advice</button>
-                <button className='button-small-mobile button3-small-mobile'>Virtual Graduation Party</button>
+              <button className='button-small-mobile button1-small-mobile'>Send Well Wishes</button>
+                <button className='button-small-mobile button2-small-mobile'>Virtual Graduation Party</button>
               </div>
 
 

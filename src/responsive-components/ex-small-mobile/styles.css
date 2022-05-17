@@ -11,6 +11,7 @@
 .Landing-header-div-ex-small-mobile {
   max-width: 90%;
   margin: auto;
+  margin-top: -2em;
  
 }
 
@@ -102,12 +103,15 @@
 /* Buttons */
 
 .buttons-ex-small-mobile {
-  height: 35vh;
+  height: 25vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   max-width: 77%;
-  margin-left: 3.2em;
+  margin: auto;
+  /* margin-top: -2em;
+  margin-bottom: 2em;
+  margin-left: 2.5em; */
   
 }
 
