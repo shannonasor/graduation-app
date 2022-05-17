@@ -12,11 +12,16 @@ import Desktop from "./responsive-components/desktop/component";
 import Laptop from "./responsive-components/laptop/component";
 import BigScreen from "./responsive-components/big-screen/component";
 import MedScreen from "./responsive-components/med-screen/component";
+import SmallMobile from "./responsive-components/small-mobile/component";
 
 import Mobile from "./responsive-components/mobile/component";
 import TabletMobile from "./responsive-components/tablet-mobile/component";
 
 function App() {
+  const isSmallMobileDevice = useMediaQuery({
+    query: "(min-device-width: 376px)",
+  });
+
 
   const isMobileDevice = useMediaQuery({
     query: "(min-device-width: 480px)",
@@ -55,8 +60,10 @@ function App() {
             return <TabletMobile />
           } else if (isMobileDevice) {
               return < Mobile />
+            } else if (isSmallMobileDevice) {
+              return < SmallMobile />
             } else {
-                return < Mobile />
+                return < SmallMobile />
           }
         }
 export default App;
