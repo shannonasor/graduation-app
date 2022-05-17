@@ -20,18 +20,19 @@ function Mobile() {
                    <img src={logo} className="Landing-logo-mobile" alt="logo" />
                    <h1 className="HeaderText-mobile Main-graduate-mobile">Graduate</h1>
                 </div>
-          {/*2022 Icon attribute*/}
-          {/* <a href="https://www.flaticon.com/free-icons/2022" title="2022 icons">2022 icons created by Vector Squad - Flaticon</a> */}
               </header>
 
               <div className='buttons-mobile'>
-              <button className='button-mobile button1-mobile'>Send Well Wishes</button>
+                <button className='button-mobile button1-mobile'>Send Well Wishes</button>
                 <button className='button-mobile button2-mobile'>Virtual Graduation Party</button>
               </div>
 
               <div className="main-content-mobile">
                 <DaysTimer />
               </div>
+
+                  {/*2022 Icon attribute*/}
+                  {/* <a href="https://www.flaticon.com/free-icons/2022" title="2022 icons">2022 icons created by Vector Squad - Flaticon</a> */}
 
       </div>
     )

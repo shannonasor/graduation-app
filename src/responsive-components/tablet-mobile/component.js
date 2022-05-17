@@ -15,11 +15,10 @@ function TabletMobile() {
                                                       backgroundSize: 'cover', backgroundRepeat: 'no-repeat',}} >
                            
               <header className="Landing-header-tablet-mobile">
-
+                
                 <div className="main-content-tablet-mobile">
                   <DaysTimer />
                 </div>
-
 
                 <div className="Landing-header-all-div-tablet-mobile">
                   <div className="Landing-header-div-tablet-mobile">
@@ -33,10 +32,11 @@ function TabletMobile() {
                     <button className='button-tablet-mobile button2-tablet-mobile'>Virtual Graduation Party</button>
                   </div>
                 </div>
+               </header>
 
+                      
                           {/*2022 Icon attribute*/}
                           {/* <a href="https://www.flaticon.com/free-icons/2022" title="2022 icons">2022 icons created by Vector Squad - Flaticon</a> */}
-               </header>
 
 
              
