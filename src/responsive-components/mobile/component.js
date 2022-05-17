@@ -29,7 +29,7 @@ function Mobile() {
                 <button className='button-mobile button2-mobile'>Virtual Graduation Party</button>
               </div>
 
-              <div className="main-content">
+              <div className="main-content-mobile">
                 <DaysTimer />
               </div>
 

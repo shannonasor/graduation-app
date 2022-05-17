@@ -42,6 +42,11 @@
 
 /* Timer */
 
+.main-content-ex-small-mobile {
+  padding: .5em;
+}
+
+
 .days-timer-ex-small-mobile {
   font-family: 'MonteCarlo', cursive;
   color: white;

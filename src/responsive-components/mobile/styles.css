@@ -43,6 +43,11 @@
 
 /* Timer */
 
+.main-content-mobile {
+  padding: .5em;
+}
+
+
 .days-timer-mobile {
   font-family: 'MonteCarlo', cursive;
   color: white;
@@ -68,7 +73,7 @@
 }
 
 .countdown-container-mobile {
-  font-size: 1em;
+  font-size: 1.5em;
   font-weight: bolder;
   display: flex;
   justify-content: space-around;
