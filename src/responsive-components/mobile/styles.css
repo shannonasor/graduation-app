@@ -66,21 +66,21 @@
 }
 
 .countdown-container-mobile {
-  font-size: 1.5em;
+  font-size: 1em;
   font-weight: bolder;
   display: flex;
   justify-content: space-around;
-  width: 100%;
+  width: 90%;
 }
 
 .count-mobile {
   background-color: black;
-  width: 23%;
+  width: 10%;
   text-align: center;
   border-radius: 16px;
   border: 1px solid royalblue;
   border-width: 5px 0 4px;
-  padding: .3em 1em;
+  padding: .1em 1.2em;
 }
 
 .days {
@@ -113,6 +113,7 @@
 }
 
 .button-mobile {
+  color: #000;
   font-family: 'MonteCarlo', cursive;
   text-decoration: none;
 	cursor: pointer;

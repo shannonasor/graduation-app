@@ -41,24 +41,24 @@ class DaysCounter extends Component {
   }
   render() {
     return (
-      <div className="countdown-container-mobile">
+      <div className="countdown-container-ex-small-mobile">
 
-        <div className="count-mobile days">
+        <div className="count-ex-small-mobile days">
           <div className="timer-days">{this.leading0(this.state.days)}</div>
           <div>Days</div>
         </div>
 
-        <div className="count-mobile hours">
+        <div className="count-ex-small-mobile hours">
           <div className="timer-hours">{this.leading0(this.state.hours)} </div>
           <div>Hours</div>
         </div>
 
-        <div className="count-mobile minutes">
+        <div className="count-ex-small-mobile minutes">
           <div className="timer-minutes">{this.leading0(this.state.minutes)}</div>
           <div>Minutes</div>
         </div>
 
-        <div className="count-mobile seconds">
+        <div className="count-ex-small-mobile seconds">
           <div className="timer-seconds">{this.leading0(this.state.seconds)} </div>
           <div>Seconds</div>
         </div>
