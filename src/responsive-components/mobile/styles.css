@@ -3,11 +3,7 @@
 .Landing-header-mobile {
   min-height: 100vh;
   display: flex;
-  /* 
-  display: flex; */
-  /* font-size: calc(10px + 2vmin);
-  color: white; */
-text-align: center;
+  text-align: center;
 
 
 }
@@ -16,6 +12,8 @@ text-align: center;
   margin-left: 0;
   max-width: 90%;
   margin: auto;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .HeaderText-mobile {

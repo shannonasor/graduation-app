@@ -24,9 +24,19 @@ function SmallMobile() {
           {/* <a href="https://www.flaticon.com/free-icons/2022" title="2022 icons">2022 icons created by Vector Squad - Flaticon</a> */}
               </header>
 
+
+              <div className='buttons'>
+                <button className='button button1'>Cash App</button>
+                <button className='button button2'>Give Advice</button>
+                <button className='button button3'>Virtual Graduation Party</button>
+              </div>
+
+
               <div className="main-content-small-mobile">
                 <DaysTimer />
               </div>
+
+              
 
       </div>
     )
