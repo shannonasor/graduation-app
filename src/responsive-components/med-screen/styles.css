@@ -1,0 +1,92 @@
+
+.Landing-header-med-screen {
+  min-height: 100vh;
+  display: flex;
+  /* font-size: calc(10px + 2vmin);
+  color: white; */
+}
+
+.Landing-header-div-med-screen {
+  margin-top: 100px;
+  margin-left: 720px;
+}
+
+.HeaderText-med-screen {
+  font-family: 'MonteCarlo', cursive;
+  /* color: purple; */
+  color: white;
+  font-size: 7em;
+}
+
+.Main-name-med-screen {
+  
+}
+
+.Landing-logo-med-screen{
+  height: 40vmin;
+  pointer-events: none;
+  margin: -100px 0 -200px 100px;
+}
+
+.Main-graduate-med-screen {
+margin-left: 105px;
+margin-top: 150px;
+}
+
+
+/* Timer */
+
+.days-timer-med-screen {
+  font-family: 'MonteCarlo', cursive;
+  color: white;
+  margin-top: -20em;
+  margin-left: 1em;
+  width: 50%;
+}
+
+
+
+.days-timer-title-date-med-screen {
+  font-size: 3em;
+  font-weight: bolder;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1em;
+}
+
+.countdown-container {
+  font-size: 2em;
+  font-weight: bolder;
+  display: flex;
+  justify-content: space-around;
+}
+
+.count {
+  width: 13%;
+  background-color: black;
+  text-align: center;
+  border-radius: 16px;
+  border: 1px solid royalblue;
+  border-width: 8px 0 4px;
+  padding: .5em .3em;
+}
+
+.days {
+  color: #FD4746;
+}
+
+.hours {
+  color: #FACB00;
+}
+
+.minutes {
+  color: #37D0F9;
+}
+
+.seconds {
+  color: #FD4746;
+}
+
+

@@ -1,25 +1,62 @@
-import logo from './logo.svg';
+import React from "react";
+// import { BrowserRouter as Router, Routes, Route, Link, } from 'react-router-dom';
+import { useMediaQuery } from 'react-responsive';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+// import Landing from './Landing/Landing';
+// import DaysTimer from './DaysTimer/DaysTimer';
+// import AdviceCard from './AdviceCard/AdviceCard';
 
+
+import Desktop from "./responsive-components/desktop/component";
+import Laptop from "./responsive-components/laptop/component";
+import BigScreen from "./responsive-components/big-screen/component";
+import MedScreen from "./responsive-components/med-screen/component";
+
+import Mobile from "./responsive-components/mobile/component";
+import TabletMobile from "./responsive-components/tablet-mobile/component";
+
+function App() {
+
+  const isMobileDevice = useMediaQuery({
+    query: "(min-device-width: 480px)",
+  });
+
+  const isTabletDevice = useMediaQuery({
+    query: "(min-device-width: 890px)",
+  });
+
+  const isLaptop = useMediaQuery({
+    query: "(min-device-width: 1024px)",
+  });
+
+  const isDesktop = useMediaQuery({
+    query: "(min-device-width: 1130px)",
+  });
+
+
+  const isMedScreen = useMediaQuery({
+    query: "(min-device-width: 1250px )",
+  });
+
+  const isBigScreen = useMediaQuery({
+    query: "(min-device-width: 1450px )",
+  });
+
+  if (isBigScreen) {
+    return <BigScreen />
+    } else if (isMedScreen) {
+      return  <MedScreen />
+    } else if (isDesktop) {
+        return  <Desktop />
+      } else if (isLaptop) {
+          return <Laptop/>
+        } else if (isTabletDevice) {
+            return <TabletMobile />
+          } else if (isMobileDevice) {
+              return < Mobile />
+            } else {
+                return < Mobile />
+          }
+        }
 export default App;
