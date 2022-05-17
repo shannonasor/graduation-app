@@ -41,7 +41,7 @@ class DaysCounter extends Component {
   }
   render() {
     return (
-      <div className="countdown-container">
+      <div className="countdown-container-laptop">
 
         <div className="count-laptop days">
           <div className="timer-days">{this.leading0(this.state.days)}</div>

@@ -15,18 +15,29 @@ function LapTop() {
                                                       backgroundSize: 'cover', backgroundRepeat: 'no-repeat',}} >
                                         
               <header className="Landing-header-laptop">
-                <div className="Landing-header-div-laptop">
-                   <h1 className="HeaderText-laptop Main-name-laptop">Shakeya Bell</h1>
-                   <img src={logo} className="Landing-logo-laptop" alt="logo" />
-                   <h1 className="HeaderText-laptop Main-graduate-laptop">Graduate</h1>
+
+                <div className="main-content-laptop">
+                  <DaysTimer />
                 </div>
-          {/*2022 Icon attribute*/}
-          {/* <a href="https://www.flaticon.com/free-icons/2022" title="2022 icons">2022 icons created by Vector Squad - Flaticon</a> */}
+
+                <div className="Landing-header-all-div-laptop">
+                  <div className="Landing-header-div-laptop">
+                    <h1 className="HeaderText-laptop Main-name-laptop">Shakeya Bell</h1>
+                    <img src={logo} className="Landing-logo-laptop" alt="logo" />
+                    <h1 className="HeaderText-laptop Main-graduate-laptop">Graduate</h1>
+                  </div>
+
+                  <div className='buttons-laptop'>
+                    <button className='button-laptop button1-laptop'>Send Well Wishes</button>
+                    <button className='button-laptop button2-laptop'>Virtual Graduation Party</button>
+                  </div>
+                </div>
               </header>
 
-              <div className="main-content">
-                <DaysTimer />
-              </div>
+                       {/*2022 Icon attribute*/}
+                       {/* <a href="https://www.flaticon.com/free-icons/2022" title="2022 icons">2022 icons created by Vector Squad - Flaticon</a> */}
+
+              
 
       </div>
     )

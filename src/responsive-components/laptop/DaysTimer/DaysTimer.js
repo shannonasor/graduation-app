@@ -9,10 +9,10 @@ class DaysTimer extends Component {
   }
   render() {
     return (
-      <div className="days-timer-big-screen">
-        <div className="days-timer-title-date-big-screen">
-          <div className="days-timer-title-big-screen">Countdown To Graduation</div>
-          <div className="days-timer-date-big-screen">{this.state.deadline}</div>
+      <div className="days-timer-laptop">
+        <div className="days-timer-title-date-laptop">
+          <div className="days-timer-title-laptop">Countdown To Graduation</div>
+          <div className="days-timer-date-laptop">{this.state.deadline}</div>
         </div>
         <DaysCounter deadline={this.state.deadline} />
       </div>
