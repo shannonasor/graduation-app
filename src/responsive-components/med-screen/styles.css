@@ -2,52 +2,47 @@
 .Landing-header-med-screen {
   min-height: 100vh;
   display: flex;
-  /* font-size: calc(10px + 2vmin);
-  color: white; */
 }
 
-.Landing-header-div-med-screen {
-  margin-top: 100px;
-  margin-left: 720px;
+.Landing-header-all-div-med-screen {
+  margin: auto;
 }
+
+.Landing-header-div-med-screen {}
 
 .HeaderText-med-screen {
   font-family: 'MonteCarlo', cursive;
-  /* color: purple; */
-  color: white;
-  font-size: 7em;
+  color: whitesmoke;
+  font-size: 5.5em;
+  margin: auto;
 }
 
-.Main-name-med-screen {
-  
-}
+.Main-name-med-screen {}
 
 .Landing-logo-med-screen{
   height: 40vmin;
   pointer-events: none;
-  margin: -100px 0 -200px 100px;
+  margin: -5.5em 0 0 4em;
 }
 
 .Main-graduate-med-screen {
-margin-left: 105px;
-margin-top: 150px;
+  margin-left: .7em;
+  margin-top: -1em;
 }
 
 
 /* Timer */
-
-.days-timer-med-screen {
+.main-content-med-screen {
   font-family: 'MonteCarlo', cursive;
   color: white;
-  margin-top: -20em;
-  margin-left: 1em;
-  width: 50%;
+  width: 45%;
+  padding: 28em 0 5em 0;
 }
 
-
+.days-timer-med-screen {}
 
 .days-timer-title-date-med-screen {
-  font-size: 3em;
+  font-size: 2em;
   font-weight: bolder;
   display: flex;
   flex-direction: column;
@@ -56,21 +51,21 @@ margin-top: 150px;
   margin-bottom: 1em;
 }
 
-.countdown-container {
-  font-size: 2em;
+.countdown-container-med-screen {
+  font-size: 1em;
   font-weight: bolder;
   display: flex;
   justify-content: space-around;
 }
 
-.count {
-  width: 13%;
+.count-med-screen {
+  width: 11%;
   background-color: black;
   text-align: center;
   border-radius: 16px;
   border: 1px solid royalblue;
   border-width: 8px 0 4px;
-  padding: .5em .3em;
+  padding: .5em .9em;
 }
 
 .days {
@@ -90,3 +85,33 @@ margin-top: 150px;
 }
 
 
+/* Buttons */
+
+.buttons-med-screen {
+  height: 25vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 80%;
+  margin: auto;
+}
+
+.button-med-screen {
+  color: #000;
+  font-family: 'MonteCarlo', cursive;
+  text-decoration: none;
+	cursor: pointer;
+	position: relative;
+  text-align: center;
+	padding: 1rem 1rem;
+	border-radius: 3.75rem;
+	line-height: 1.5rem;
+	font-size: 1.5rem;
+	font-weight: 600;
+	border: 3px solid royalblue;
+	background-image: linear-gradient(-180deg, royalblue 0%, #37D0F9 100%);
+	box-shadow: 0 1rem 1.25rem 0 rgba(22,75,195,0.50),
+							0 -0.25rem 1.5rem #FACB00 inset,
+							0 0.50rem 0.1rem #FD4746  inset,
+							0 0.25rem 2rem 0 #FACB00 inset;
+}

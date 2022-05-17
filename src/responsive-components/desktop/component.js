@@ -22,7 +22,7 @@ function Desktop() {
 
                 <div className="Landing-header-all-div-desktop">
                   <div className="Landing-header-div-desktop">
-                    <h1 className="HeaderText-laptop Main-name-desktop">Shakeya Bell</h1>
+                    <h1 className="HeaderText-desktop Main-name-desktop">Shakeya Bell</h1>
                     <img src={logo} className="Landing-logo-desktop" alt="logo" />
                     <h1 className="HeaderText-desktop Main-graduate-desktop">Graduate</h1>
                   </div>
