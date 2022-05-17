@@ -15,18 +15,28 @@ function BigScreen() {
                                                       backgroundSize: 'cover', backgroundRepeat: 'no-repeat',}} >
                                         
               <header className="Landing-header-big-screen">
-                <div className="Landing-header-div-big-screen">
-                   <h1 className="HeaderText-big-screen Main-name-big-screen">Shakeya Bell</h1>
-                   <img src={logo} className="Landing-logo-big-screen" alt="logo" />
-                   <h1 className="HeaderText-big-screen Main-graduate-big-screen">Graduate</h1>
+
+                <div className="main-content-big-screen">
+                  <DaysTimer />
                 </div>
-          {/*2022 Icon attribute*/}
-          {/* <a href="https://www.flaticon.com/free-icons/2022" title="2022 icons">2022 icons created by Vector Squad - Flaticon</a> */}
+
+                <div className="Landing-header-all-div-big-screen">
+                  <div className="Landing-header-div-big-screen">
+                    <h1 className="HeaderText-big-screen Main-name-big-screen">Shakeya Bell</h1>
+                    <img src={logo} className="Landing-logo-big-screen" alt="logo" />
+                    <h1 className="HeaderText-big-screen Main-graduate-big-screen">Graduate</h1>
+                  </div>
+
+                  <div className='buttons-big-screen'>
+                    <button className='button-big-screen button1-big-screen'>Send Well Wishes</button>
+                    <button className='button-big-screen button2-big-screen'>Virtual Graduation Party</button>
+                  </div>
+                </div>
               </header>
 
-              <div className="main-content">
-                <DaysTimer />
-              </div>
+                      {/*2022 Icon attribute*/}
+                      {/* <a href="https://www.flaticon.com/free-icons/2022" title="2022 icons">2022 icons created by Vector Squad - Flaticon</a> */}
+
 
       </div>
     )
