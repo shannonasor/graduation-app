@@ -1,26 +1,25 @@
 
 
 .Landing-header-small-mobile {
-  min-height: 100vh;
+  min-height: 60vh;
   display: flex;
-  /* 
-  display: flex; */
-  /* font-size: calc(10px + 2vmin);
-  color: white; */
-text-align: center;
+  text-align: center;
 
 
 }
 
 .Landing-header-div-small-mobile {
-  margin-left: 0;
+ 
   max-width: 90%;
   margin: auto;
+  /* margin-left: 0; */
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .HeaderText-small-mobile {
   font-family: 'MonteCarlo', cursive;
-  color: orangered;
+  color: whitesmoke;
   /* color: white; */
   font-size: 3.5em;
   
@@ -39,6 +38,7 @@ text-align: center;
 
 .Main-graduate-small-mobile {
   margin-top: 0; 
+
 }
 
 
@@ -63,7 +63,6 @@ text-align: center;
   display: flex;
   flex-direction: column;
  align-items: center;
-  margin-bottom: 1em;
  
   
 
@@ -84,7 +83,7 @@ text-align: center;
   border-radius: 16px;
   border: 1px solid royalblue;
   border-width: 5px 0 4px;
-  padding: .3em em;
+  padding: .3em 1em;
   /* border: 1px solid purple;
 
   border-width: 8px 0 4px;

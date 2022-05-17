@@ -36,6 +36,11 @@
 
 
 /* Timer */
+.main-content-small-mobile {
+  padding: .5em;
+}
+
+
 
 .days-timer-laptop {
   font-family: 'MonteCarlo', cursive;
