@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import DaysCounter from "./DaysCounter";
-// import '../assets/daystimer.css';
 
 class DaysTimer extends Component {
   constructor(props) {

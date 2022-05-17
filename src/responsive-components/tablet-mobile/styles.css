@@ -1,31 +1,20 @@
-
 .Landing-header-tablet-mobile {
   min-height: 100vh;
   display: flex;
- 
-  /* flex-direction: column; */
 } 
 
 .Landing-header-all-div-tablet-mobile {
   margin: auto;
-  /* padding-left: 3em; */
 }
 
 
-.Landing-header-div-tablet-mobile {
-  /* margin-top: -2em;
-  margin-left: 25em; */
-  /* margin: auto;
-  padding-left: 3em; */
-}
+.Landing-header-div-tablet-mobile {}
 
 .HeaderText-tablet-mobile {
   font-family: 'MonteCarlo', cursive;
   color: whitesmoke;
-  /* color: white; */
   font-size: 5.5em;
   margin: auto;
-
 }
 
 .Main-name-tablet-mobile {
@@ -47,26 +36,13 @@
 /* Timer */
 
 .main-content-tablet-mobile {
-  /* padding: .2em; */
-  /* border: 2px solid yellow; */
   font-family: 'MonteCarlo', cursive;
   color: white;
-  /* 
-  margin-left: 1em;
-  width: 50%; */
   width: 45%;
-  padding-top: 20em;
-
+  padding: 28em 0 5em 0;
 }
 
-.days-timer-tablet-mobile {
-
-
- 
-
-}
-
-
+.days-timer-tablet-mobile {}
 
 .days-timer-title-date-tablet-mobile {
   font-size: 2em;
@@ -121,9 +97,6 @@
   justify-content: space-between;
   max-width: 80%;
   margin: auto;
-  /* 
-  margin-left: 32em; */
-  /* margin-top: -10em; */
 }
 
 .button-tablet-mobile {
