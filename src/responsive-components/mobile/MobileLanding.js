@@ -27,7 +27,7 @@ function MobileLanding() {
                   <button className='button-mobile button1-mobile'>Send Well Wishes</button>
                 </Link>
 
-                <Link to='/wellwishes'>
+                <Link to='/partyaccess'>
                   <button className='button-mobile button2-mobile'>Virtual Graduation Party</button>
                 </Link>
               </div>

@@ -32,7 +32,7 @@ function LaptopLanding() {
                   <button className='button-laptop button1-laptop'>Send Well Wishes</button>
                 </Link>
 
-                <Link to='/wellwishes'>
+                <Link to='/partyaccess'>
                   <button className='button-laptop button2-laptop'>Virtual Graduation Party</button>
                 </Link>
               </div>

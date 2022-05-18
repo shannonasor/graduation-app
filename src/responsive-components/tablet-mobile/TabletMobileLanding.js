@@ -33,7 +33,7 @@ function TabletMobileLanding() {
       <button className='button-tablet-mobile button1-tablet-mobile'>Send Well Wishes</button>
     </Link>
 
-    <Link to='/wellwishes'>
+    <Link to='/partyaccess'>
       <button className='button-tablet-mobile button2-tablet-mobile'>Virtual Graduation Party</button>
     </Link>
   </div>

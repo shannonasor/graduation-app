@@ -32,8 +32,9 @@ function DesktopLanding() {
                   <button className='button-desktop button1-desktop'>Send Well Wishes</button>
                 </Link>
                 
-                <Link to='/wellwishes'></Link>
-                <button className='button-desktop button2-desktop'>Virtual Graduation Party</button>
+                <Link to='/partyaccess'>
+                  <button className='button-desktop button2-desktop'>Virtual Graduation Party</button>
+                </Link>
               </div>
             </div>
 </header>

@@ -12,6 +12,7 @@ import './styles.css'
 
 import SmallMobileLanding from './SmallMobileLanding';
 import WellWishes from './WellWishes';
+import PartyAccess from './PartyAccess';
 
 
 
@@ -34,7 +35,7 @@ function SmallMobile() {
           {/* This route is for contactus component
           with exact path "/contactus", in 
           component props we passes the imported component*/}
-          {/* <Route path="/contactus" component={ContactUs} /> */}
+          <Route path="/partyaccess" element={<PartyAccess/>} exact   />
             
           {/* If any route mismatches the upper 
           route endpoints then, redirect triggers 

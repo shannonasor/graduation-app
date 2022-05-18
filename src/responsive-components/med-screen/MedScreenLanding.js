@@ -32,7 +32,7 @@ function ExSmallMobileLanding() {
                   <button className='button-big-screen button1-big-screen'>Send Well Wishes</button>
                 </Link>
 
-                <Link to='/wellwishes'>
+                <Link to='/partyaccess'>
                   <button className='button-big-screen button2-big-screen'>Virtual Graduation Party</button>
                 </Link>
               </div>
