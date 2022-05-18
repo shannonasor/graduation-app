@@ -1,40 +1,52 @@
-import React from 'react'
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Navigate,
+} from "react-router-dom";
 
 import DaysTimer from './DaysTimer/DaysTimer';
 import logo from '../../img/2022icon.png';
 import './styles.css'
 
 
-
+import MobileLanding from './MobileLanding';
+import WellWishes from './WellWishes';
 
 
 
 function Mobile() {
     return (
-        <div className="Landing-mobile" style={{ backgroundImage: "url(/keya5.jpg)", backgroundPosition: 'left 35% bottom',
-                                                      backgroundSize: 'cover', backgroundRepeat: 'no-repeat',}} >
-                                        
-              <header className="Landing-header-mobile">
-                <div className="Landing-header-div-mobile">
-                   <h1 className="HeaderText-mobile Main-name-mobile">Shakeya Bell</h1>
-                   <img src={logo} className="Landing-logo-mobile" alt="logo" />
-                   <h1 className="HeaderText-mobile Main-graduate-mobile">Graduate</h1>
-                </div>
-              </header>
+        <div>
+                  {/* This is the alias of BrowserRouter i.e. Router */}
+      <Router>
+        <Routes>
+          {/* This route is for home component 
+          with exact path "/", in component props 
+          we passes the imported component*/}
+          <Route path="/" element={<MobileLanding/>} exact  />
+            
+          {/* This route is for about component 
+          with exact path "/about", in component 
+          props we passes the imported component*/}
+          <Route path="/wellwishes" element={<WellWishes/>} exact   />
+            
+          {/* This route is for contactus component
+          with exact path "/contactus", in 
+          component props we passes the imported component*/}
+          {/* <Route path="/contactus" component={ContactUs} /> */}
+            
+          {/* If any route mismatches the upper 
+          route endpoints then, redirect triggers 
+          and redirects app to home component with to="/" */}
+          {/* <Navigate to="/" /> */}
+        </Routes>
+      </Router>
+                         {/*2022 Icon attribute*/}
+                         {/* <a href="https://www.flaticon.com/free-icons/2022" title="2022 icons">2022 icons created by Vector Squad - Flaticon</a> */}
+              
 
-              <div className='buttons-mobile'>
-                <button className='button-mobile button1-mobile'>Send Well Wishes</button>
-                <button className='button-mobile button2-mobile'>Virtual Graduation Party</button>
-              </div>
-
-              <div className="main-content-mobile">
-                <DaysTimer />
-              </div>
-
-                  {/*2022 Icon attribute*/}
-                  {/* <a href="https://www.flaticon.com/free-icons/2022" title="2022 icons">2022 icons created by Vector Squad - Flaticon</a> */}
-
-      </div>
+        </div>
     )
 }
 

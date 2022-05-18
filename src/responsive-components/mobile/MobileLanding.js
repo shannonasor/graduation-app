@@ -9,27 +9,27 @@ import './styles.css'
 
 
 
-function ExSmallMobileLanding() {
+function MobileLanding() {
     return (
         <div className="Landing-ex-small-mobile" style={{ backgroundImage: "url(/keya5.jpg)", backgroundPosition: 'left 35% bottom',
                                                       backgroundSize: 'cover', backgroundRepeat: 'no-repeat',}} >
                                         
-              <header className="Landing-header-ex-small-mobile">
-                <div className="Landing-header-div-ex-small-mobile">
-                   <h1 className="HeaderText-ex-small-mobile Main-name-ex-small-mobile">Shakeya Bell</h1>
-                   <img src={logo} className="Landing-logo-ex-small-mobile" alt="logo" />
-                   <h1 className="HeaderText-ex-small-mobile Main-graduate-ex-small-mobile">Graduate</h1>
+              <header className="Landing-header-mobile">
+                <div className="Landing-header-div-mobile">
+                   <h1 className="HeaderText-mobile Main-name-mobile">Shakeya Bell</h1>
+                   <img src={logo} className="Landing-logo-mobile" alt="logo" />
+                   <h1 className="HeaderText-mobile Main-graduate-mobile">Graduate</h1>
                 </div>
               </header>
 
-              <div className='buttons-ex-small-mobile'>
+              <div className='buttons-mobile'>
                 <Link to='/wellwishes'>
-                <button className='button-ex-small-mobile button1-ex-small-mobile'>Send Well Wishes</button>
+                <button className='button-mobile button1-mobile'>Send Well Wishes</button>
                 </Link>
-                <button className='button-ex-small-mobile button2-ex-small-mobile'>Virtual Graduation Party</button>
+                <button className='button-mobile button2-mobile'>Virtual Graduation Party</button>
               </div>
 
-              <div className="main-content-ex-small-mobile">
+              <div className="main-content-mobile">
                 <DaysTimer />
               </div>
                          {/*2022 Icon attribute*/}
@@ -40,4 +40,4 @@ function ExSmallMobileLanding() {
     )
 }
 
-export default ExSmallMobileLanding;
+export default MobileLanding;
