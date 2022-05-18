@@ -12,7 +12,7 @@
 .HeaderText-small-mobile {
   font-family: 'MonteCarlo', cursive;
   color: whitesmoke;
-  font-size: 3.5em;
+  font-size: 4.5em;
 }
 
 .Main-name-small-mobile {
@@ -20,9 +20,9 @@
 }
 
 .Landing-logo-small-mobile{
-    height: 40vmin;
-    pointer-events: none;
-    margin: -50px 0 -30px 0;
+  height: 40vmin;
+  pointer-events: none;
+  margin: -5em 0 -3em 0;
 }
 
 .Main-graduate-small-mobile {

@@ -52,7 +52,7 @@
 }
 
 .countdown-container-laptop {
-  font-size: 1em;
+  font-size: 1.5em;
   font-weight: bolder;
   display: flex;
   justify-content: space-around;
@@ -65,7 +65,7 @@
   border-radius: 16px;
   border: 1px solid royalblue;
   border-width: 8px 0 4px;
-  padding: .5em .9em;
+  padding: .2em .9em;
 }
 
 .days {
