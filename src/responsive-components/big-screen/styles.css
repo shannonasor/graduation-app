@@ -13,16 +13,16 @@
 .HeaderText-big-screen {
   font-family: 'MonteCarlo', cursive;
   color: whitesmoke;
-  font-size: 5.5em;
+  font-size: 7.5em;
   margin: auto;
 }
 
 .Main-name-big-screen {}
 
 .Landing-logo-big-screen{
-  height: 40vmin;
+  height: 30vmin;
   pointer-events: none;
-  margin: -5.5em 0 0 4em;
+  margin: -5.5em 0 0 9em;
 }
 
 .Main-graduate-big-screen {
