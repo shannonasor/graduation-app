@@ -1,46 +1,55 @@
-import React from 'react'
+import React from 'react';
+
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Navigate,
+} from "react-router-dom";
 
 import DaysTimer from './DaysTimer/DaysTimer';
 import logo from '../../img/2022icon.png';
 import './styles.css'
 
 
+import LaptopLanding from './LaptopLanding';
+import WellWishes from './WellWishes';
 
 
 
-
-function LapTop() {
+function Laptop() {
     return (
-        <div className="Landing-laptop" style={{ backgroundImage: "url(/keya5.jpg)", backgroundPosition: 'center',
-                                                      backgroundSize: 'cover', backgroundRepeat: 'no-repeat',}} >
-                                        
-              <header className="Landing-header-laptop">
-
-                <div className="main-content-laptop">
-                  <DaysTimer />
-                </div>
-
-                <div className="Landing-header-all-div-laptop">
-                  <div className="Landing-header-div-laptop">
-                    <h1 className="HeaderText-laptop Main-name-laptop">Shakeya Bell</h1>
-                    <img src={logo} className="Landing-logo-laptop" alt="logo" />
-                    <h1 className="HeaderText-laptop Main-graduate-laptop">Graduate</h1>
-                  </div>
-
-                  <div className='buttons-laptop'>
-                    <button className='button-laptop button1-laptop'>Send Well Wishes</button>
-                    <button className='button-laptop button2-laptop'>Virtual Graduation Party</button>
-                  </div>
-                </div>
-              </header>
-
-                       {/*2022 Icon attribute*/}
-                       {/* <a href="https://www.flaticon.com/free-icons/2022" title="2022 icons">2022 icons created by Vector Squad - Flaticon</a> */}
-
+        <div>
+                  {/* This is the alias of BrowserRouter i.e. Router */}
+      <Router>
+        <Routes>
+          {/* This route is for home component 
+          with exact path "/", in component props 
+          we passes the imported component*/}
+          <Route path="/" element={<LaptopLanding/>} exact  />
+            
+          {/* This route is for about component 
+          with exact path "/about", in component 
+          props we passes the imported component*/}
+          <Route path="/wellwishes" element={<WellWishes/>} exact   />
+            
+          {/* This route is for contactus component
+          with exact path "/contactus", in 
+          component props we passes the imported component*/}
+          {/* <Route path="/contactus" component={ContactUs} /> */}
+            
+          {/* If any route mismatches the upper 
+          route endpoints then, redirect triggers 
+          and redirects app to home component with to="/" */}
+          {/* <Navigate to="/" /> */}
+        </Routes>
+      </Router>
+                         {/*2022 Icon attribute*/}
+                         {/* <a href="https://www.flaticon.com/free-icons/2022" title="2022 icons">2022 icons created by Vector Squad - Flaticon</a> */}
               
 
-      </div>
+        </div>
     )
 }
 
-export default LapTop;
+export default Laptop;
