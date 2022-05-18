@@ -6,7 +6,7 @@ import React from "react";
 const WellWishes = () => {
   return (
     <div>
-      <h1>Well Wishes ExSmallMobileLanding</h1>
+      <h1>Well Wishes SmallMobileLanding</h1>
       <br />
       
     </div>
