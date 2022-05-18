@@ -10,6 +10,11 @@ const ExSmallMobileWellWishes = () => {
     const [dontBeAfraid, setDontBeAfraid] = useState('');
     const [lastAdvice, setLastAdvice] = useState('');
 
+    const handleSubmit = (e) => {
+      e.preventDefault();
+      const advice = {bePrepared, keep, openTo, always, dont, dontBeAfraid, lastAdvice};
+      console.log(advice);
+    }
 
 
   return (
@@ -17,7 +22,7 @@ const ExSmallMobileWellWishes = () => {
                                                       backgroundSize: 'cover', backgroundRepeat: 'no-repeat',}} >
       <h1>Advice For Shakeya</h1>
 
-      <form className='advice-for-graduate'>
+      <form className='advice-for-graduate' onSubmit={handleSubmit}>
         <label>Be Prpared To:</label>
           <textarea 
                 value={bePrepared}

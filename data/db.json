@@ -1,0 +1,25 @@
+{
+    "advice": [
+        {
+            "bePrepared": "Prepared",
+            "keep": "Keep",
+            "openTo": "Be Open To",
+            "always": "Always",
+            "dont": "Don't",
+            "dontBeAfraid": "Don't Be Afraid ",
+            "lastAdvice": "Las Piece Of Advice",
+            "id": 1
+        },
+        {
+            "bePrepared": "Prepared",
+            "keep": "Keep",
+            "openTo": "Be Open To",
+            "always": "Always",
+            "dont": "Don't",
+            "dontBeAfraid": "Don't Be Afraid ",
+            "lastAdvice": "Las Piece Of Advice",
+            "id": 2
+        }
+        
+    ]
+}
