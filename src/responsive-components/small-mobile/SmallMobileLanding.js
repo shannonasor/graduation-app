@@ -24,9 +24,12 @@ function SmallMobileLanding() {
 
               <div className='buttons-small-mobile'>
                 <Link to='/wellwishes'>
-                <button className='button-small-mobile button1-small-mobile'>Send Well Wishes</button>
+                  <button className='button-small-mobile button1-small-mobile'>Send Well Wishes</button>
                 </Link>
-                <button className='button-small-mobile button2-small-mobile'>Virtual Graduation Party</button>
+
+                <Link to='/wellwishes'>
+                  <button className='button-small-mobile button2-small-mobile'>Virtual Graduation Party</button>
+                </Link>
               </div>
 
               <div className="main-content-small-mobile">

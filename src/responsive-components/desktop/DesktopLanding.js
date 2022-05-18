@@ -29,8 +29,10 @@ function DesktopLanding() {
 
               <div className='buttons-desktop'>
                 <Link to="/wellwishes">
-                <button className='button-desktop button1-desktop'>Send Well Wishes</button>
+                  <button className='button-desktop button1-desktop'>Send Well Wishes</button>
                 </Link>
+                
+                <Link to='/wellwishes'></Link>
                 <button className='button-desktop button2-desktop'>Virtual Graduation Party</button>
               </div>
             </div>

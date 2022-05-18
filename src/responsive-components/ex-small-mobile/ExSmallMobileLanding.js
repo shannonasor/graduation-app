@@ -24,9 +24,12 @@ function ExSmallMobileLanding() {
 
               <div className='buttons-ex-small-mobile'>
                 <Link to='/wellwishes'>
-                <button className='button-ex-small-mobile button1-ex-small-mobile'>Send Well Wishes</button>
+                  <button className='button-ex-small-mobile button1-ex-small-mobile'>Send Well Wishes</button>
                 </Link>
-                <button className='button-ex-small-mobile button2-ex-small-mobile'>Virtual Graduation Party</button>
+
+                <Link to='/wellwishes'>
+                  <button className='button-ex-small-mobile button2-ex-small-mobile'>Virtual Graduation Party</button>
+                </Link>
               </div>
 
               <div className="main-content-ex-small-mobile">

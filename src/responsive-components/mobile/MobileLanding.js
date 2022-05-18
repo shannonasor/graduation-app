@@ -24,9 +24,12 @@ function MobileLanding() {
 
               <div className='buttons-mobile'>
                 <Link to='/wellwishes'>
-                <button className='button-mobile button1-mobile'>Send Well Wishes</button>
+                  <button className='button-mobile button1-mobile'>Send Well Wishes</button>
                 </Link>
-                <button className='button-mobile button2-mobile'>Virtual Graduation Party</button>
+
+                <Link to='/wellwishes'>
+                  <button className='button-mobile button2-mobile'>Virtual Graduation Party</button>
+                </Link>
               </div>
 
               <div className="main-content-mobile">

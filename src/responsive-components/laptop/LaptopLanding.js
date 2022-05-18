@@ -29,9 +29,12 @@ function LaptopLanding() {
 
               <div className='buttons-laptop'>
                 <Link to="/wellwishes">
-                <button className='button-laptop button1-laptop'>Send Well Wishes</button>
+                  <button className='button-laptop button1-laptop'>Send Well Wishes</button>
                 </Link>
-                <button className='button-laptop button2-laptop'>Virtual Graduation Party</button>
+
+                <Link to='/wellwishes'>
+                  <button className='button-laptop button2-laptop'>Virtual Graduation Party</button>
+                </Link>
               </div>
             </div>
           </header>
