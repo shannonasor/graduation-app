@@ -6,7 +6,7 @@ import React from "react";
 const WellWishes = () => {
   return (
     <div>
-      <h1>WellWishes</h1>
+      <h1>Well Wishes Med Screen</h1>
       <br />
       
     </div>
