@@ -9,11 +9,23 @@ const ExSmallMobileWellWishes = () => {
     const [dont, setDont] = useState('');
     const [dontBeAfraid, setDontBeAfraid] = useState('');
     const [lastAdvice, setLastAdvice] = useState('');
-
+    const [isPending, setIsPending] = useState(false)
     const handleSubmit = (e) => {
       e.preventDefault();
       const advice = {bePrepared, keep, openTo, always, dont, dontBeAfraid, lastAdvice};
-      console.log(advice);
+
+      setIsPending(true);
+
+
+      fetch('http://localhost:8000/advice', {
+        method: 'POST',
+        headers: {"Content-Type": "application/json"},
+        body: JSON.stringify(advice)
+      })
+      .then(() => {
+        console.log('new advice added')
+        setIsPending(false);
+      })
     }
 
 
@@ -65,7 +77,8 @@ const ExSmallMobileWellWishes = () => {
                 onChange={(e) => setLastAdvice(e.target.value)}>
           </textarea>
 
-        <button>Send Advice</button>
+        {!isPending &&<button>Send Advice</button>}
+        { isPending &&<button disabled>Sending Advice</button>}
 
       </form>
 

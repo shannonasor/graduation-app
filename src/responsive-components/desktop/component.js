@@ -15,6 +15,7 @@ import './styles.css'
 import DesktopLanding from './DesktopLanding';
 import WellWishes from './WellWishes';
 import PartyAccess from './PartyAccess';
+import AllAdvice from './AllAdvice';
 
 
 
@@ -38,6 +39,7 @@ function Desktop() {
           with exact path "/contactus", in 
           component props we passes the imported component*/}
           <Route path="/partyaccess" element={<PartyAccess/>} exact   />
+          <Route path="/alladvice" element={<AllAdvice/>} exact   />
             
           {/* If any route mismatches the upper 
           route endpoints then, redirect triggers 

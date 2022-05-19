@@ -1,25 +1,94 @@
 {
-    "advice": [
-        {
-            "bePrepared": "Prepared",
-            "keep": "Keep",
-            "openTo": "Be Open To",
-            "always": "Always",
-            "dont": "Don't",
-            "dontBeAfraid": "Don't Be Afraid ",
-            "lastAdvice": "Las Piece Of Advice",
-            "id": 1
-        },
-        {
-            "bePrepared": "Prepared",
-            "keep": "Keep",
-            "openTo": "Be Open To",
-            "always": "Always",
-            "dont": "Don't",
-            "dontBeAfraid": "Don't Be Afraid ",
-            "lastAdvice": "Las Piece Of Advice",
-            "id": 2
-        }
-        
-    ]
+  "advice": [
+    {
+      "bePrepared": "Prepared",
+      "keep": "Keep",
+      "openTo": "Be Open To",
+      "always": "Always",
+      "dont": "Don't",
+      "dontBeAfraid": "Don't Be Afraid ",
+      "lastAdvice": "Las Piece Of Advice",
+      "id": 1
+    },
+    {
+      "bePrepared": "Prepared",
+      "keep": "Keep",
+      "openTo": "Be Open To",
+      "always": "Always",
+      "dont": "Don't",
+      "dontBeAfraid": "Don't Be Afraid ",
+      "lastAdvice": "Las Piece Of Advice",
+      "id": 2
+    },
+    {
+      "bePrepared": "mmmmmvvvvv",
+      "keep": "ujjjjj'o\nokwefkem;smd;",
+      "openTo": "sd,mv.,md.vmssdk;lwjesgljsfdnms",
+      "always": "sd,nsdn,msn,nf",
+      "dont": "fsd,m.,snd.,s",
+      "dontBeAfraid": "fsmsm.,fm.,smd",
+      "lastAdvice": "fsnsndm,nsm,n,mn ,",
+      "id": 3
+    },
+    {
+      "bePrepared": "http://localhost:3000/",
+      "keep": "http://localhost:3000/",
+      "openTo": "w;akf;s;s;lk;ldk;lk",
+      "always": "http://localhost:3000/",
+      "dont": "http://localhost:3000/",
+      "dontBeAfraid": "http://localhost:3000/",
+      "lastAdvice": "http://localhost:3000/",
+      "id": 4
+    },
+    {
+      "bePrepared": "http://localhost:3000/",
+      "keep": "http://localhost:3000/",
+      "openTo": "w;akf;s;s;lk;ldk;lk",
+      "always": "http://localhost:3000/",
+      "dont": "http://localhost:3000/",
+      "dontBeAfraid": "http://localhost:3000/",
+      "lastAdvice": "http://localhost:3000/",
+      "id": 5
+    },
+    {
+      "bePrepared": "http://localhost:3000/",
+      "keep": "http://localhost:3000/",
+      "openTo": "w;akf;s;s;lk;ldk;lk",
+      "always": "http://localhost:3000/",
+      "dont": "http://localhost:3000/",
+      "dontBeAfraid": "http://localhost:3000/",
+      "lastAdvice": "http://localhost:3000/",
+      "id": 6
+    },
+    {
+      "bePrepared": "http://localhost:3000/",
+      "keep": "http://localhost:3000/",
+      "openTo": "w;akf;s;s;lk;ldk;lk",
+      "always": "http://localhost:3000/",
+      "dont": "http://localhost:3000/",
+      "dontBeAfraid": "http://localhost:3000/",
+      "lastAdvice": "http://localhost:3000/",
+      "id": 7
+    },
+    {
+      "bePrepared": "http://localhost:3000/",
+      "keep": "http://localhost:3000/",
+      "openTo": "w;akf;s;s;lk;ldk;lk",
+      "always": "http://localhost:3000/",
+      "dont": "http://localhost:3000/",
+      "dontBeAfraid": "http://localhost:3000/",
+      "lastAdvice": "http://localhost:3000/",
+      "id": 8
+    },
+    {
+      "bePrepared": "http://localhost:3000/",
+      "keep": "http://localhost:3000/",
+      "openTo": "w;akf;s;s;lk;ldk;lk",
+      "always": "http://localhost:3000/",
+      "dont": "http://localhost:3000/",
+      "dontBeAfraid": "http://localhost:3000/",
+      "lastAdvice": "http://localhost:3000/",
+      "id": 9
+    }
+  ]
 }
