@@ -7,13 +7,11 @@ import {
   Navigate,
 } from "react-router-dom";
 
-import DaysTimer from './DaysTimer/DaysTimer';
-import logo from '../../img/2022icon.png';
 import './styles.css'
 
 
 import TabletMobileLanding from './TabletMobileLanding';
-import WellWishes from './WellWishes';
+import TabletMobileWellWishes from './TabletMobileWellWishes';
 import PartyAccess from './PartyAccess';
 
 
@@ -32,7 +30,7 @@ function TabletMobile() {
           {/* This route is for about component 
           with exact path "/about", in component 
           props we passes the imported component*/}
-          <Route path="/wellwishes" element={<WellWishes/>} exact   />
+          <Route path="/wellwishes" element={<TabletMobileWellWishes/>} exact   />
             
           {/* This route is for contactus component
           with exact path "/contactus", in 

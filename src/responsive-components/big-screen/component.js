@@ -13,7 +13,7 @@ import './styles.css'
 
 
 import BigScreenLanding from './BigScreenLanding';
-import WellWishes from './WellWishes';
+import BigScreenWellWishes from './BigScreenWellWishes';
 import PartyAccess from './PartyAccess';
 
 
@@ -32,7 +32,7 @@ function BigScreen() {
           {/* This route is for about component 
           with exact path "/about", in component 
           props we passes the imported component*/}
-          <Route path="/wellwishes" element={<WellWishes/>} exact   />
+          <Route path="/wellwishes" element={<BigScreenWellWishes/>} exact   />
             
           {/* This route is for contactus component
           with exact path "/contactus", in 

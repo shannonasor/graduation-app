@@ -11,7 +11,7 @@ import './styles.css'
 
 
 import SmallMobileLanding from './SmallMobileLanding';
-import WellWishes from './WellWishes';
+import SmallMobileWellWishes from "./SmallMobileWellWishes";
 import PartyAccess from './PartyAccess';
 
 
@@ -30,7 +30,7 @@ function SmallMobile() {
           {/* This route is for about component 
           with exact path "/about", in component 
           props we passes the imported component*/}
-          <Route path="/wellwishes" element={<WellWishes/>} exact   />
+          <Route path="/wellwishes" element={<SmallMobileWellWishes/>} exact   />
             
           {/* This route is for contactus component
           with exact path "/contactus", in 

@@ -13,7 +13,7 @@ import './styles.css'
 
 
 import DesktopLanding from './DesktopLanding';
-import WellWishes from './WellWishes';
+import DesktopWellWishes from './DesktopWellWishes';
 import PartyAccess from './PartyAccess';
 import AllAdvice from './AllAdvice';
 
@@ -33,7 +33,7 @@ function Desktop() {
           {/* This route is for about component 
           with exact path "/about", in component 
           props we passes the imported component*/}
-          <Route path="/wellwishes" element={<WellWishes/>} exact   />
+          <Route path="/wellwishes" element={<DesktopWellWishes/>} exact   />
             
           {/* This route is for contactus component
           with exact path "/contactus", in 
